@@ -25,7 +25,7 @@ Basándose en el historial de proyectos y el tiempo dedicado a cada tarea, la ap
 
 FreelanceHub ofrece una solución integral para freelancers que buscan optimizar su trabajo y aumentar su rentabilidad. La capacidad de gestionar proyectos, clientes, finanzas y recibir recomendaciones sobre trabajos rentables puede ser especialmente valiosa para freelancers que desean maximizar su eficiencia y éxito en el mercado. Además, la aplicación podría ser útil para agencias de contratación, empresas y organizaciones que colaboran con freelancers y desean simplificar la gestión de proyectos y pagos.
 
-## Perfil Profesional:
+# Perfil Profesional:
 Estudiante de Ingeniería de Sistemas e Informática en el sexto semestre con una sólida comprensión de los fundamentos teóricos y prácticos de la ingeniería de software y con conocimientos en áreas como programación, bases de datos, redes y sistemas operativos.
 
 ## Educación:
