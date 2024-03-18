@@ -4,6 +4,22 @@
 
 FreelanceHub es una plataforma en línea diseñada para simplificar la gestión y organización de trabajos freelance. La aplicación proporciona herramientas integrales para ayudar a los freelancers a administrar sus proyectos, clientes, finanzas y más. Se basa en Numpy, Pandas, Matplotlib, Scipy y otras bibliotecas para análisis de datos, modelado predictivo y visualización.
 
+## Justificación de las tecnologías
+### Numpy:
+Numpy es una biblioteca fundamental para la computación numérica en Python. En FreelanceHub, se utilizaría Numpy para realizar operaciones matemáticas eficientes, como cálculos financieros, manipulación de fechas y horas, y manipulación de matrices para el análisis de datos.
+
+### Pandas: 
+Pandas es una biblioteca poderosa para el análisis y manipulación de datos estructurados en Python. En FreelanceHub, Pandas se utilizaría para gestionar y analizar datos de proyectos, clientes, ingresos, gastos y otras métricas financieras. Además, Pandas facilitaría la limpieza y preparación de datos antes de realizar análisis más avanzados.
+
+### Matplotlib:
+Matplotlib es una biblioteca popular para la visualización de datos en Python. En FreelanceHub, Matplotlib se utilizaría para crear gráficos y visualizaciones claras que representen datos financieros, tendencias de proyectos, rendimiento del tiempo y otros aspectos importantes del negocio freelance. Estas visualizaciones ayudarían a los usuarios a comprender rápidamente la situación financiera y el desempeño de sus proyectos.
+
+### Scipy: 
+Scipy es una biblioteca que ofrece muchas funciones para el procesamiento de señales, optimización, estadísticas y más. En FreelanceHub, Scipy se utilizaría para implementar modelos predictivos y técnicas de análisis avanzado, como la predicción de la carga de trabajo, la evaluación de la rentabilidad de proyectos y la identificación de patrones en los datos de clientes y proyectos.
+
+### Otras bibliotecas adicionales: 
+Dependiendo de la complejidad del análisis de datos y modelado predictivo, podrían necesitarse otras bibliotecas adicionales, como scikit-learn para aprendizaje automático, statsmodels para análisis estadístico, y seaborn para visualización de datos más avanzada. Estas bibliotecas complementarían las funcionalidades ofrecidas por Numpy, Pandas, Matplotlib y Scipy, permitiendo realizar análisis más sofisticados y precisos en FreelanceHub.
+
 ## Características clave:
 
 ### Gestión de proyectos: 
