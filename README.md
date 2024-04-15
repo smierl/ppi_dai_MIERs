@@ -41,8 +41,8 @@ Basándose en el historial de proyectos y el tiempo dedicado a cada tarea, la ap
 
 FreelanceHub ofrece una solución integral para freelancers que buscan optimizar su trabajo y aumentar su rentabilidad. La capacidad de gestionar proyectos, clientes, finanzas y recibir recomendaciones sobre trabajos rentables puede ser especialmente valiosa para freelancers que desean maximizar su eficiencia y éxito en el mercado. Además, la aplicación podría ser útil para agencias de contratación, empresas y organizaciones que colaboran con freelancers y desean simplificar la gestión de proyectos y pagos.
 
-# Perfil Profesional:
-Estudiante de Ingeniería de Sistemas e Informática en el sexto semestre con una sólida comprensión de los fundamentos teóricos y prácticos de la ingeniería de software y con conocimientos en áreas como programación, bases de datos, redes y sistemas operativos.
+## Perfil Profesional:
+Hola!!!, soy Santiago Mier, Estudiante de Ingeniería de Sistemas e Informática en el sexto semestre con una sólida comprensión de los fundamentos teóricos y prácticos de la ingeniería de software y con conocimientos en áreas como programación, bases de datos, redes y sistemas operativos.
 
 ## Educación:
 
@@ -71,3 +71,13 @@ SCRUM, Agile
 Español: Nativo
 
 Inglés: usuario competente (C1)
+
+## Contacto:
+
+Si estas interesado en mi trabajo me puedes encontrarme por los siguientes medios:
+
+[<img src="https://e7.pngegg.com/pngimages/602/665/png-clipart-linkedin-linkedin-thumbnail.png" width="3%">](https://www.linkedin.com/in/santiago-mier-londono-208bb3302/)
+[<img src="https://w7.pngwing.com/pngs/355/428/png-transparent-fiverr-logo-logos-logos-and-brands-icon-thumbnail.png" width="3%">](https://www.fiverr.com/santiago_m_dev?up_rollout=true)
+[<img src="https://w7.pngwing.com/pngs/257/806/png-transparent-upwork-freelancer-android-android-text-trademark-rectangle-thumbnail.png" width="3%">](https://www.upwork.com/freelancers/~018cc5f41ac4fe1467)
+[<img src="https://w7.pngwing.com/pngs/789/872/png-transparent-freelancer-hd-logo.png" width="3%">](https://www.freelancer.com/u/SantiagoML22)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png" width="3%">](https://stackoverflow.com/users/24124334/santiago-mier-londono)
