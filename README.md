@@ -17,6 +17,9 @@ Matplotlib es una biblioteca popular para la visualización de datos en Python. 
 ### Scipy: 
 Scipy es una biblioteca que ofrece muchas funciones para el procesamiento de señales, optimización, estadísticas y más. En FreelanceHub, Scipy se utilizaría para implementar modelos predictivos y técnicas de análisis avanzado, como la predicción de la carga de trabajo, la evaluación de la rentabilidad de proyectos y la identificación de patrones en los datos de clientes y proyectos.
 
+### GeoPandas:
+GeoPandas es una extensión de Pandas que agrega soporte para datos geoespaciales, lo que permite el análisis y visualización de datos geográficos de manera eficiente en Python. En FreelanceHub, GeoPandas se integraría para ofrecer analisis de la distribución geográfica de clientes y proyectos, proporcionando información valiosa sobre las áreas geográficas con mayor demanda de servicios freelance.
+
 ### Otras bibliotecas adicionales: 
 Dependiendo de la complejidad del análisis de datos y modelado predictivo, podrían necesitarse otras bibliotecas adicionales, como scikit-learn para aprendizaje automático, statsmodels para análisis estadístico, y seaborn para visualización de datos más avanzada. Estas bibliotecas complementarían las funcionalidades ofrecidas por Numpy, Pandas, Matplotlib y Scipy, permitiendo realizar análisis más sofisticados y precisos en FreelanceHub.
 
