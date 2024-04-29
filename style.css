@@ -47,7 +47,7 @@ body{
 }
 
 .container button{
-    background-color: #cf1a1a;
+    background-color: #ce4e6a;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -161,9 +161,9 @@ body{
 }
 
 .toggle{
-    background-color: #ff0000;
+    background-color: #e51f1f;
     height: 100%;
-    background: linear-gradient(to right, #1d497c, #ea2828);
+    background: linear-gradient(to right, #1d497c, #ce4e6a);
     color: #fff;    
     position: relative;
     left: -100%;
@@ -207,4 +207,61 @@ body{
 
 .container.active .toggle-right{
     transform: translateX(200%);
+}
+
+#privacy-notification {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+#privacy-notification p {
+    margin: 0;
+}
+
+#privacy-notification a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#privacy-notification button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#privacy-notification button:hover {
+    background-color: #0056b3;
+}
+
+header { 
+    position: absolute;
+    top:0;
+    Left:0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: #ffffff;
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #a0c2e7, #dc9191);
+    padding: 0 10px;
+    font-family: 'Montserrat', serif;
+    font-weight: 600;
+    border-radius: 20px;
 }
