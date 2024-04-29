@@ -4,6 +4,10 @@
 
 FreelanceHub es una plataforma en línea diseñada para simplificar la gestión y organización de trabajos freelance. La aplicación proporciona herramientas integrales para ayudar a los freelancers a administrar sus proyectos, clientes, finanzas y más. Se basa en Numpy, Pandas, Matplotlib, Scipy y otras bibliotecas para análisis de datos, modelado predictivo y visualización.
 
+### Para acceder al proyecto:
+
+https://smierl.github.io/ppi_dai_MIERs/
+
 ## Justificación de las tecnologías
 ### Numpy:
 Numpy es una biblioteca fundamental para la computación numérica en Python. En FreelanceHub, se utilizaría Numpy para realizar operaciones matemáticas eficientes, como cálculos financieros, manipulación de fechas y horas, y manipulación de matrices para el análisis de datos.
