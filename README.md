@@ -84,7 +84,7 @@ Inglés: usuario competente (C1)
 Si estas interesado en mi trabajo me puedes encontrarme por los siguientes medios:
 
 [<img src="https://e7.pngegg.com/pngimages/602/665/png-clipart-linkedin-linkedin-thumbnail.png" width="3%">](https://www.linkedin.com/in/12345santi)
-[<img src="https://w7.pngwing.com/pngs/355/428/png-transparent-fiverr-logo-logos-logos-and-brands-icon-thumbnail.png" width="3%">]((https://www.fiverr.com/santiago_m_dev))
+[<img src="https://w7.pngwing.com/pngs/355/428/png-transparent-fiverr-logo-logos-logos-and-brands-icon-thumbnail.png" width="3%">](https://www.fiverr.com/santiago_m_dev)
 [<img src="https://w7.pngwing.com/pngs/257/806/png-transparent-upwork-freelancer-android-android-text-trademark-rectangle-thumbnail.png" width="3%">](https://www.upwork.com/freelancers/~018cc5f41ac4fe1467)
 [<img src="https://w7.pngwing.com/pngs/789/872/png-transparent-freelancer-hd-logo.png" width="3%">](https://www.freelancer.com/u/SantiagoML22)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png" width="3%">](https://stackoverflow.com/users/24124334/santiago-mier-londono)
