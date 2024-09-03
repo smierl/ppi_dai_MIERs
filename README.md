@@ -65,7 +65,7 @@ Java, Python, C++, C
 HTML, CSS, JavaScript
 ### Bases de Datos: 
 postgreSQL, MongoDB
-###Frameworks:
+### Frameworks:
 django, bootstrap
 ### Herramientas de Desarrollo:
 Git, Visual Studio Code
