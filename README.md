@@ -60,11 +60,13 @@ Cursando el sexto semestre.
 ## Habilidades Técnicas:
 
 ### Lenguajes de Programación: 
-Java, Python, C++
+Java, Python, C++, C
 ### Desarrollo Web:
 HTML, CSS, JavaScript
 ### Bases de Datos: 
-SQL, MongoDB
+postgreSQL, MongoDB
+###Frameworks:
+django, bootstrap
 ### Herramientas de Desarrollo:
 Git, Visual Studio Code
 ### Sistemas Operativos: 
