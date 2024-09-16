@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE htmL>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/ejercicios_sty.css' %}">
+    <title>Beat me!</title>
+</head>
+    <body>
+    <section>
+
+        <header>
+            <a href="/index/" class= "logo">Beat me!</a>
+            <ul class="navbar">
+                <li><a href="/imc/">Calculadora IMC</a></li>
+                <li><a href="/mapa/">Ejercicio cercano</a></li>
+            </ul>
+        </header>
+
+        <div class="exercise-box">
+            <h1>Encontrar ejercicios</h1>
+            <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Buscar</button>
+            </form>
+
+            {% if exercises %}
+            <h2>Ejercicios recomendados</h2>
+            <ul>
+            {% for exercise in exercises %}
+                <li>
+                    <h3>{{ exercise.name }}</h3>
+                    <p><strong>Type:</strong> {{ exercise.type }}</p>
+                    <p><strong>Equipment:</strong> {{ exercise.equipment }}</p>
+                    <p><strong>Difficulty:</strong> {{ exercise.difficulty }}</p>
+                    <p><strong>Instructions:</strong></p>
+                    <p>{{ exercise.instructions }}</p>
+                </li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+    </section>
+    </body>
+</html>

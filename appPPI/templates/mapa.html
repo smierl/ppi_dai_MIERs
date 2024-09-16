@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE htmL>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/mapa_sty.css' %}">
+    <title>Beat me!</title>
+</head>
+    <body>
+    <section>
+
+        <header>
+            <a href="/index/" class= "logo">Beat me!</a>
+            <ul class="navbar">
+                <li><a href="/imc/">Calculadora IMC</a></li>
+                <li><a href="/ejercicios/">Ejercicios</a></li>
+            </ul>
+        </header>
+
+        <div class="mapa">
+            
+            <div class="contenedor-mapa-form">
+                <div id="map">
+                    {{ map_html|safe }}
+                </div>
+                <div class="formulario">
+                    <h1>Gimnasio más cercano:</h1>
+                    <form method="post" id="coordenadas_form">
+                        {% csrf_token %}
+                        <div>
+                            <input type="text" id="coordenadas" name="coordenadas" pattern="^[-+]?\d{1,2}\.\d+, [-+]?\d{1,3}\.\d+$" placeholder="introduzca sus coordenadas (xxx,yyy)" required> 
+                            <input type="submit" value="buscar">
+                        </div>
+                    </form>
+                    <h3>{{punto_cercano}}</h3>
+                </div>
+            </div>
+        </div>   
+
+    </section>
+    </body>
+</html>
