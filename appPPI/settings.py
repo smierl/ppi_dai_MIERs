@@ -77,12 +77,12 @@ WSGI_APPLICATION = "appPPI.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME":"loginapp",
-        "USER": "postgres",
-        "PASSWORD": "NPCucr62",
-        "HOST": "127.0.0.1",
-        "DATABSE_PORT": "5432",
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'smier$appPPI',
+        'USER': 'smier',
+        'PASSWORD': 'NPCucr62',
+        'HOST': 'mysql.pythonanywhere.com',  # Usa '127.0.0.1' si 'localhost' no funciona
+        'PORT': '3306',  
     }
 }
 
