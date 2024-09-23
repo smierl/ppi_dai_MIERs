@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-sq5h1yj1xt5@f1^28=tni=f&=h35gbj6#$&y!5wuxpgaoqzq+3"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['smier1.pythonanywhere.com','localhost']
 
 
 # Application definition
@@ -78,8 +78,8 @@ WSGI_APPLICATION = "appPPI.wsgi.application"
 DATABASES = {
     "default": {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'smier$appPPI',
-        'USER': 'smier',
+        'NAME': 'smier1$PPI',
+        'USER': 'smier1',
         'PASSWORD': 'NPCucr62',
         'HOST': 'mysql.pythonanywhere.com',  # Usa '127.0.0.1' si 'localhost' no funciona
         'PORT': '3306',
