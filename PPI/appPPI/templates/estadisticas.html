@@ -10,17 +10,26 @@
         <link rel="stylesheet" href="{% static 'css/entrada_sty.css' %}">
     </head>
     <body>
-    <section>
-        <header>
-            <a href="/entrada/" class= "logo">Beat me!</a>
-            <ul class="navbar">
-                <li><a href="/entrada/">Agregar Ejercicio</ax/li>
-                <li><a href="/password_change/">Cambio contraseña</ax/li>
-            </ul>
-        </header>
+        <section>
+            <header>
+                <a href="/entrada/" class="logo">Beat me!</a>
+                <ul class="navbar">
+                    <li><a href="/entrada/">Agregar Ejercicio</a></li>
+                    <li><a href="/password_change/">Cambio contraseña</a></li>
+                </ul>
+            </header>
 
-        <img src="data:image/png;base64,{{ graphic }}" alt="Gráfica de Ejercicios">
-        
-    </section>
+            <img src="data:image/png;base64,{{ graphic }}" alt="Gráfica de Ejercicios">
+            
+            {% if correlacion is not None %}
+                <h3>Resultados del Análisis:</h3>
+                <p>Correlación entre peso y repeticiones: {{ correlacion }}</p>
+                <p>Pendiente de la regresión: {{ slope }}</p>
+                <p>Intercepto de la regresión: {{ intercept }}</p>
+                <p>R²: {{ r_value|floatformat:2 }}</p>
+            {% else %}
+                <p>No hay datos suficientes para realizar el análisis.</p>
+            {% endif %}
+        </section>
     </body>
 </html>
