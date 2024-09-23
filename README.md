@@ -32,7 +32,7 @@ Beat me! es una aplicación deportiva en línea diseñada para ayudar a los usua
 
 Beat me! ofrece una solución integral para individuos que buscan optimizar sus rutinas de entrenamiento y mejorar su salud física. La capacidad de gestionar entrenamientos, localizar lugares cercanos, calcular variables corporales y recibir recomendaciones personalizadas puede ser especialmente valiosa para personas que desean alcanzar sus objetivos de fitness de manera más eficiente. Además, la aplicación puede ser útil para entrenadores personales y gimnasios que buscan ofrecer herramientas adicionales a sus clientes para mejorar su experiencia de entrenamiento.
 
-**[link al proyecto](https://smier.pythonanywhere.com/)**
+**[link al proyecto](https://smier1.pythonanywhere.com/)**
 
 
 ## Perfil Profesional:
