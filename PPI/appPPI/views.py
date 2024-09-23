@@ -6,6 +6,7 @@ from django.http import HttpResponse
 from django.contrib import messages
 from loginapp.models import User, Gym, Ejercicio
 import matplotlib.pyplot as plt
+from scipy.stats import pearsonr, linregress
 import io
 import base64
 import numpy as np
@@ -302,8 +303,8 @@ def estadisticas(request):
 
     # Preparar los datos para la gráfica
     nombres = [ejercicio.nombre for ejercicio in ejercicios]
-    repeticiones = [ejercicio.repeticiones for ejercicio in ejercicios]
-    pesos = [ejercicio.peso for ejercicio in ejercicios]
+    repeticiones = np.array([ejercicio.repeticiones for ejercicio in ejercicios])
+    pesos = np.array([ejercicio.peso for ejercicio in ejercicios])
 
     # Crear la gráfica con Matplotlib
     plt.figure(figsize=(10, 6))
@@ -320,10 +321,23 @@ def estadisticas(request):
     buffer.seek(0)
     image_png = buffer.getvalue()
     buffer.close()
-    graphic = base64.b64encode(image_png)
-    graphic = graphic.decode('utf-8')
+    graphic = base64.b64encode(image_png).decode('utf-8')
 
-    return render(request, 'estadisticas.html', {'graphic': graphic})
+    # Análisis de Correlación
+    if len(pesos) > 0 and len(repeticiones) > 0:
+        correlacion = pearsonr(pesos, repeticiones)[0]  # Solo el coeficiente
+        slope, intercept, r_value, _, _ = linregress(pesos, repeticiones)
+    else:
+        correlacion = None
+        slope = intercept = r_value = None
+
+    return render(request, 'estadisticas.html', {
+        'graphic': graphic,
+        'correlacion': correlacion,
+        'slope': slope,
+        'intercept': intercept,
+        'r_value': r_value
+    })
     
 
 def ejercicios(request):
