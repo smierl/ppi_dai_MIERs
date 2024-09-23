@@ -1,0 +1,362 @@
+[
+    {
+        "model": "loginapp.Gym",
+        "pk": 1,
+        "fields": {
+            "latitude": 6.2541376,
+            "longitude": -75.5786439,
+            "name": "Dance Gym - Comfamiliar Camacol"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 2,
+        "fields": {
+            "latitude": 6.3036711,
+            "longitude": -75.570402,
+            "name": "Esparta"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 3,
+        "fields": {
+            "latitude": 6.2424448,
+            "longitude": -75.5863728,
+            "name": "gym El Club"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 4,
+        "fields": {
+            "latitude": 6.2196622,
+            "longitude": -75.5665897,
+            "name": "BFit"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 5,
+        "fields": {
+            "latitude": 6.2500644,
+            "longitude": -75.6000298,
+            "name": "Fit 360"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 6,
+        "fields": {
+            "latitude": 6.2127978,
+            "longitude": -75.5748072,
+            "name": "Smart fit"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 7,
+        "fields": {
+            "latitude": 6.2460952,
+            "longitude": -75.5959851,
+            "name": "Gym Shop"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 8,
+        "fields": {
+            "latitude": 6.2502605,
+            "longitude": -75.6017595,
+            "name": "node/4951844739"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 9,
+        "fields": {
+            "latitude": 6.2696453,
+            "longitude": -75.5365453,
+            "name": "Gimnasio CPS La cruz"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 10,
+        "fields": {
+            "latitude": 6.269504,
+            "longitude": -75.5384646,
+            "name": "Inder"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 11,
+        "fields": {
+            "latitude": 6.2412493,
+            "longitude": -75.5928123,
+            "name": "Flying Tree Yoga"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 12,
+        "fields": {
+            "latitude": 6.2471083,
+            "longitude": -75.5953428,
+            "name": "node/5979550985"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 13,
+        "fields": {
+            "latitude": 6.2090304,
+            "longitude": -75.5852773,
+            "name": "node/5995596986"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 14,
+        "fields": {
+            "latitude": 6.2457535,
+            "longitude": -75.5647951,
+            "name": "Smart Fit"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 15,
+        "fields": {
+            "latitude": 6.3034896,
+            "longitude": -75.5822532,
+            "name": "PowerGym picacho"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 16,
+        "fields": {
+            "latitude": 6.2095256,
+            "longitude": -75.5938232,
+            "name": "Dynamic Evolution Train"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 17,
+        "fields": {
+            "latitude": 6.2399156,
+            "longitude": -75.5853069,
+            "name": "node/7300031301"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 18,
+        "fields": {
+            "latitude": 6.2601431,
+            "longitude": -75.5992969,
+            "name": "Gimnasio Dinamic"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 19,
+        "fields": {
+            "latitude": 6.1996866,
+            "longitude": -75.5723381,
+            "name": "Smart Fit"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 20,
+        "fields": {
+            "latitude": 6.2569492,
+            "longitude": -75.5824342,
+            "name": "Bodytech"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 21,
+        "fields": {
+            "latitude": 6.2146346,
+            "longitude": -75.5732271,
+            "name": "Athletic"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 22,
+        "fields": {
+            "latitude": 6.2432742,
+            "longitude": -75.6201371,
+            "name": "Gimnasio"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 23,
+        "fields": {
+            "latitude": 6.2539669,
+            "longitude": -75.589284,
+            "name": "Gimnasio  Libre"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 24,
+        "fields": {
+            "latitude": 6.2527759,
+            "longitude": -75.5823496,
+            "name": "node/9108919854"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 25,
+        "fields": {
+            "latitude": 6.2680603,
+            "longitude": -75.5925891,
+            "name": "Gimnasio Publico"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 26,
+        "fields": {
+            "latitude": 6.2594898,
+            "longitude": -75.5999443,
+            "name": "Gimnasio Publico"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 27,
+        "fields": {
+            "latitude": 6.2717746,
+            "longitude": -75.5943217,
+            "name": "Gimnasio  Publico"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 28,
+        "fields": {
+            "latitude": 6.2717342,
+            "longitude": -75.5943258,
+            "name": "Gimnasio Publico"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 29,
+        "fields": {
+            "latitude": 6.271557,
+            "longitude": -75.5941327,
+            "name": "Gimnasio  Publoico"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 30,
+        "fields": {
+            "latitude": 6.2621552,
+            "longitude": -75.5862037,
+            "name": "Bodytech"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 31,
+        "fields": {
+            "latitude": 6.1971876,
+            "longitude": -75.5739562,
+            "name": "Smart Fit"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 32,
+        "fields": {
+            "latitude": 6.2483988,
+            "longitude": -75.5938481,
+            "name": "Hellbox Fitness"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 33,
+        "fields": {
+            "latitude": 6.2120207,
+            "longitude": -75.5717288,
+            "name": "Happy Yoga"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 34,
+        "fields": {
+            "latitude": 6.2083795,
+            "longitude": -75.5736809,
+            "name": "Yogalab"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 35,
+        "fields": {
+            "latitude": 6.2409684,
+            "longitude": -75.5866464,
+            "name": "Smart Fit Unicentro"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 36,
+        "fields": {
+            "latitude": 6.2671982,
+            "longitude": -75.5547186,
+            "name": "Smart Fit"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 37,
+        "fields": {
+            "latitude": 6.2119761,
+            "longitude": -75.5737307,
+            "name": "Smart Fit"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 38,
+        "fields": {
+            "latitude": 6.2463923,
+            "longitude": -75.6251464,
+            "name": "GYM La somadera"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 39,
+        "fields": {
+            "latitude": 6.2474886,
+            "longitude": -75.538965,
+            "name": "Cancha y gimnasio al aire libre"
+        }
+    },
+    {
+        "model": "loginapp.Gym",
+        "pk": 40,
+        "fields": {
+            "latitude": 6.2807669,
+            "longitude": -75.6346559,
+            "name": "Gym al aire libre"
+        }
+    }
+]

@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Beat me</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'css/cambio_sty.css' %}">
+    </head>
+    <body>
+    <section>
+        <header>
+            <a href="/entrada/" class= "logo">Beat me!</a>
+        </header>
+
+        <h2>Cambiar contraseña</h2>
+        <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Cambiar contraseña</button>
+        </form>
+        
+    </section>
+    </body>
+</html>
